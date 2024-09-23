@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: lightgrey;
+    font-style: normal;
+    font-size: 17px;  
+    
+}
+
+p{
+    color: grey;
+}
+
+h1{
+    margin-bottom: -15px;
+    line-height: 1;
+}
+
+.b{
+    height: 330px;
+    width: 900px;
+    background-color:white;
+    color: black;
+    margin-left: 200px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    
+}
+
+.content{
+    background-color: white;
+    height: 280px;
+    width: 880px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.about{
+    margin-left: 10px ;
+    display: grid;
+    margin-top: -19px;
+}
+
+.social{
+    background-color: white;
+    height: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.coffeeimg{
+    min-width: 100%;
+    height:100%;
+    width:100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.pp{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.sendicon{
+    height: 30px;
+    margin-left: 170px;
+}
+
+.name{
+    margin-left: 6px;
+}
